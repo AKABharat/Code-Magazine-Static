@@ -1,0 +1,194 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+footer,
+p,
+li {
+  color: rgb(56, 55, 55);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  margin-bottom: 20px;
+  text-shadow: grey 0px 4px 10px;
+  border-top: #1098ad solid 10px;
+  position: relative;
+  /* margin:  */
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+  transition-delay: 2s;
+  transition: 2s;
+}
+h1:hover {
+  transform: translateX(110px);
+  transition: 2s;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+#extra {
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+}
+/* this is elememt selector  */
+footer {
+  font-size: 10px;
+  line-height: 1.3;
+  color: grey;
+}
+/* this is called id selector  */
+#author {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.dp:hover {
+  box-shadow: black 0px 0px 20px;
+  transition: 2s;
+}
+.dp {
+  transition-delay: 2s;
+  transition: 2s;
+}
+.related-author {
+  list-style: none;
+}
+
+/* this is called class selector */
+.main-heading {
+  background-color: #efeded;
+  padding: 20px;
+}
+.program {
+  position: relative;
+}
+
+/* this is element selector  */
+aside {
+  background-color: #efeded;
+  border-top: 5px #1098ad solid;
+  border-bottom: 5px #1098ad solid;
+  box-shadow: #1098ad 0px 0px 10px;
+}
+li:nth-child(1) {
+  color: #06d6a0;
+}
+li:nth-child(2) {
+  color: #fca311;
+}
+li:nth-child(3) {
+  color: cornflowerblue;
+}
+li:nth-child(4) {
+  color: #ff006e;
+}
+li:nth-child(5) {
+  color: coral;
+}
+
+/* it is a pseudo class */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  margin: 20px;
+}
+/* it is a pseudo class */
+a:visited {
+  color: #ff006e;
+}
+nav a:link:hover {
+  color: white;
+  display: inline;
+  padding: 4px 10px;
+  border-radius: auto;
+  text-decoration: none;
+  transition: 1s;
+  font-size: large;
+}
+nav a:link:hover:nth-child(1) {
+  background-color: #06d6a0;
+}
+nav a:link:hover:nth-child(2) {
+  background-color: #fca311;
+}
+nav a:link:hover:nth-child(3) {
+  background-color: cornflowerblue;
+}
+nav a:link:hover:nth-child(4) {
+  background-color: #ff006e;
+}
+nav a:link:hover:nth-child(5) {
+  background-color: coral;
+}
+
+nav a:link {
+  transition-delay: 2s;
+  transition: 1s;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+a:active {
+  background-color: yellow;
+}
+/*? above is : L-V-H-A  */
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+.absolute-position {
+  font-size: x-large;
+
+  font-weight: bold;
+  padding-right: 20px !important;
+  padding: 10px;
+  bottom: 30px;
+  right: 127px;
+  position: relative;
+  cursor: pointer;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 2 px;
+}
+/*!  below is a pseudo-element , which does not exists in html but but we can select and style it */
+p::first-letter {
+  color: black;
+  font-style: normal;
+}
+.dp {
+  float: left;
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+.dp-author {
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
